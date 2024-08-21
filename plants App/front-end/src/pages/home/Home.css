@@ -1,0 +1,25 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('../../../public/assets/person/7.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.mainContent {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.text{
+    color: #fff; /* 文字色を白に設定 */
+    font-size:150px; /* 文字サイズを大きく設定 */
+
+}
